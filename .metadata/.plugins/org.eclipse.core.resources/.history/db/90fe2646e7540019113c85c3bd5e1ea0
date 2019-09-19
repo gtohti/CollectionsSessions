@@ -1,0 +1,21 @@
+package replPractice;
+
+import java.util.Scanner;
+
+public class replPractice68 {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	String word = scan.next();
+    //WRITE YOUR CODE HERE
+	word = "";
+	int x = 4;
+		while (x>=0) {
+			word = word + word.charAt(x);
+			System.out.println(word);
+			--x;
+	
+	}
+	
+	
+}
+}

@@ -1,0 +1,26 @@
+package replPractice;
+import java.util.*;
+
+public class replPractice62 {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	String word = scan.next();
+    //YOUR CODE HERE
+	int x = 0;
+	int count= word.length();
+	char ch = word.charAt(word.length());
+    if (count%2!=0) {
+    	
+   	System.out.println(ch/2);
+   }else if (count==1){
+    	while (x<4) {
+    		System.out.println(word.charAt(0));
+        	++x;
+    	}
+    	
+    }else if (count%2==0 && count>=4) {
+    	System.out.println((ch/2+1) + ((ch/2)-1));
+    }
+	
+}
+}

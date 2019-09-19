@@ -1,0 +1,64 @@
+package ListConcept;
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+public class ArrayListConcept {
+	public static void main(String[] args) {
+		
+		//Collection<Integer> ar1 = new ArrayList<>();
+	
+		ArrayList<Integer> ar1 = new ArrayList<>();
+		ar1.add(10);
+		ar1.add(20);
+		ar1.add(30);
+	    ar1.add(40);
+		ar1.add(50);
+		ar1.add(50);
+		//adding item
+		System.out.println("adding item " + ar1.add(7));
+		//adding multiple items
+		System.out.println(ar1.addAll(Arrays.asList(3, 5, 7, 1, 13, 87)));
+		System.out.println("adding multiple items " + ar1);
+		//getting size
+		System.out.println("getting size " + ar1.size());
+		//checking if empty or not
+		System.out.println("checking if empty " + ar1.isEmpty());
+		//remove item and items	
+		System.out.println("remove item " + ar1.remove(7));	
+		System.out.println(ar1);
+		System.out.println("Remove 3 items " + ar1.removeAll(Arrays.asList(20, 5, 87)));
+		System.out.println(ar1);
+		//contains item and items
+		System.out.println("Contains item " + ar1.contains(50));
+		System.out.println("Contains 3 items " + ar1.containsAll(Arrays.asList(20, 5, 87)));
+		System.out.println(ar1);
+		//Retain item and item
+		System.out.println(ar1.retainAll(Arrays.asList(50, 7, 5)));
+		System.out.println(ar1);
+	//	Employee class object
+	//	System.out.println(ar1);
+//		Employee e1 = new Employee("Gheyret", 50, "Dev");
+//		Employee e2 = new Employee("Awat", 47, "Scrum");
+//		Employee e3 = new Employee("Shep", 25, "Admin");
+//		
+//		ArrayList<Employee> ar4 = new ArrayList<Employee>();
+//		ar4.add(e1);
+//		ar4.add(e2);
+//		ar4.add(e3);
+//		ar4.addAll(Arrays.asList(e1));
+//		Iterator<Employee> it = ar4.iterator();
+//		while(it.hasNext()) {
+//			Employee emp = it.next();
+//			System.out.println(emp.name + " ");
+//			System.out.println(emp.age + " ");
+//			System.out.println(emp.dept + " ");
+//		}
+			
+		}
+		
+	}
+
+

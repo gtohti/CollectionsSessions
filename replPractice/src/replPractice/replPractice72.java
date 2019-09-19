@@ -1,0 +1,25 @@
+package replPractice;
+
+import java.util.Scanner;
+
+public class replPractice72 {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	 String email = scan.next();
+	    //Write you code here 
+	String firstName = email.substring(0, email.indexOf('_')) ;
+	String lastName = email.substring((email.indexOf('_')+1), email.indexOf('@'));
+	String domain = email.substring(email.indexOf('@')+1, email.indexOf('.'));
+	String topDomain = email.substring(email.indexOf('.')+1, email.length());
+	String firstCap = firstName.substring(0,1).toUpperCase();
+	String lastCap = lastName.substring(0,1).toUpperCase();
+	
+	System.out.println("First name: " + firstCap + firstName.substring(1));
+	
+	System.out.println("Last name: " + lastCap + lastName.substring(1));
+	
+	System.out.println("Domain: " + domain);
+	
+	System.out.println("Top-Level Domain: " + topDomain);
+}
+}

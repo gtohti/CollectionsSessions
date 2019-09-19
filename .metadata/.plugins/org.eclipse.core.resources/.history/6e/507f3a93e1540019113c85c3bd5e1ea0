@@ -1,0 +1,27 @@
+package replPractice;
+import java.util.*;
+public class replPractice67 {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+    String word1 = scan.next();
+    String word2 = scan.next();
+    //YOUR CODE HERE
+    int x = 0;
+    
+    while (word1.length()<4 & word2.length()<4) {
+    	System.out.println(x++);
+    	++x;
+    }
+    
+    
+//    if (word1.charAt(0)==word2.charAt(0) | word1.charAt(1)==word2.charAt(1) | word1.charAt(2)==word2.charAt(2)){
+//    	System.out.println(word1 + word2);
+//    	System.out.println(word1.substring(0,3));
+//    	System.out.println(word2.substring(0,3));
+//    }else {
+//    	System.out.println("connot merge");
+//    }
+    
+    
+}
+}

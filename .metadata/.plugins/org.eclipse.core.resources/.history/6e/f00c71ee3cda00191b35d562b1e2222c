@@ -1,0 +1,62 @@
+package ListConcept;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+public class ArrayListConcept {
+	public static void main(String[] args) {
+		ArrayList ar = new ArrayList();
+		ar.add(10);
+		ar.add(20);
+		ar.add(30);
+		System.out.println(ar);
+		
+		ar.add(40);
+		ar.add(50);
+		ar.add(50);
+		
+		ar.add("Test");
+		ar.add(true);
+		ar.add('a');
+		
+		
+		System.out.println(ar);
+		System.out.println(ar.get(3));
+//		
+//		for(int i = 0; i < ar.size(); i++) {
+//			System.out.print(ar.get(i) + " ");
+		
+		ArrayList<Integer> ar1 = new ArrayList<Integer>();
+		ar1.add(10);
+		ar1.add(20);
+		ar1.add(30);
+	    ar1.add(40);
+		ar1.add(50);
+		ar1.add(50);
+		ar1.addAll(Arrays.asList(3, 5, 7, 1, 13, 87));
+		System.out.println(ar1);
+	//	Employee class object
+		
+		Employee e1 = new Employee("Gheyret", 50, "Dev");
+		Employee e2 = new Employee("Awat", 47, "Scrum");
+		Employee e3 = new Employee("Shep", 25, "Admin");
+		
+		ArrayList<Employee> ar4 = new ArrayList<Employee>();
+		ar4.add(e1);
+		ar4.add(e2);
+		ar4.add(e3);
+		ar4.addAll(Arrays.asList(e1));
+		Iterator<Employee> it = ar4.iterator();
+		while(it.hasNext()) {
+			Employee emp = it.next();
+			System.out.println(emp.name + " ");
+			System.out.println(emp.age + " ");
+			System.out.println(emp.dept + " ");
+		}
+			
+		}
+		
+	}
+
+

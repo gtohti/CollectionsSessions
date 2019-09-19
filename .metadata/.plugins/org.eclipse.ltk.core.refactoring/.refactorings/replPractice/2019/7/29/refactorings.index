@@ -1,0 +1,6 @@
+1563273794278	Rename local variable 'inhabitantsByCity'
+1563276858736	Rename local variable 'inhabitantsEachCity'
+1563276910289	Rename local variable 'x'
+1563278489278	Convert local variable 'dePopulation' to field
+1563279954611	Rename local variable 'x'
+1563283611110	Rename local variable 'shorStr'

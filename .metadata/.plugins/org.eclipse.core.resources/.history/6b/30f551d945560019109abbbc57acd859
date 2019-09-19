@@ -1,0 +1,18 @@
+package replPractice;
+import java.util.*;
+public class replPractice76 {
+public static void main(String[] agrs) {
+	
+	Scanner scan = new Scanner (System.in);
+	String sentance = scan.nextLine();
+	  //Write your code here 
+	
+	int count = sentance.length();
+	
+	while (count > 0) {
+		
+		System.out.print(sentance.charAt(count) );
+		--count;
+	}
+}
+}

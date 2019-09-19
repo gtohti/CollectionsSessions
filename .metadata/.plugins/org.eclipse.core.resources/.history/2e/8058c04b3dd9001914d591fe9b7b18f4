@@ -1,0 +1,26 @@
+package replPractice201;
+
+public class Main {
+	public static void main(String[] args) {
+//		int channel = 1;
+//		int volumeLevel = 1;
+//		boolean on = false;
+//		String brand = "undefined";
+	TV tv = new TV();
+	
+	tv.setVolumeLevel(4);
+	tv.getVolumeLevel();
+	tv.channel = 2;
+	tv.on = true;
+	tv.brand ="Sony";
+	System.out.println(tv.volumeDown());
+	System.out.println(tv.volumeUp());
+	//System.out.println(tv.isOn());
+	tv.isOn();
+	TV tv1 = new TV("Sony");
+	tv1.brand = "LG";
+	System.out.println("The TV brand is " + tv1.brand);
+	
+	}
+
+}

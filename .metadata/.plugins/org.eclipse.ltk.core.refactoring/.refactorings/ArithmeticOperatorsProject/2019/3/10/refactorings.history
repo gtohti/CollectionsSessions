@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;dev&apos; in &apos;ArithmeticOperators.Arithmetic2Operators.main(...)&apos; to &apos;div&apos;&#x0D;&#x0A;- Original project: &apos;ArithmeticOperatorsProject&apos;&#x0D;&#x0A;- Original element: &apos;ArithmeticOperators.Arithmetic2Operators.main(String[]).dev&apos;&#x0D;&#x0A;- Renamed element: &apos;dev&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;dev&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;ArithmeticOperators{Arithmetic2Operators.java[Arithmetic2Operators~main~\[QString;@dev!218!236!222!224!I!0!false" name="div" references="true" stamp="1551896677213" version="1.0"/>
+</session>

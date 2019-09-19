@@ -1,0 +1,28 @@
+package replPractice;
+import java.util.*;
+
+public class replPractice62 {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	String word = scan.next();
+    //YOUR CODE HERE
+	 int x = 0;
+	    if (word.length()%2>0) {
+	    	
+	   	System.out.println(word.charAt(word.length()/2));
+	   	
+	   }else if ((word.length()<1)){
+	    	while (x<3) {
+	    	
+	    		System.out.print(word.charAt(0));
+	        		x++;
+	    	}
+	    	
+	    }else if (word.length()%2==0 && word.length()>=4) {
+	    	System.out.println(""+(word.charAt((word.length()/2)-1) + ""+((word.charAt(word.length()/2))+"")));
+	    }else if (word.length()==1) {
+	    	System.out.println(word +word);
+	    }
+}
+
+}

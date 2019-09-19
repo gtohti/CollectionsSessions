@@ -1,0 +1,38 @@
+package replPractice;
+import java.util.*;
+
+public class replPractice175 {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+    double[] arr = new double[4];
+   
+    for (int i = 0; i < arr.length; i++) {
+		arr[i] = scan.nextDouble();
+		
+		
+    }
+    System.out.println( findMax(arr));
+ }
+   
+    
+	 //WRITE YOUR CODE HERE
+		public static int findMax(int[] nums) {
+			int max = nums[0];
+			for (int i = 0; i < nums.length; i++) {
+				if(nums[i]>max) {
+					max = nums[i];
+				}
+			}
+			return max;
+		}
+		public static double findMax(double[] nums) {
+			double max = nums[0];
+			for (int i = 0; i < nums.length; i++) {
+				if(nums[i]>max) {
+					max = nums[i];
+				}
+			}
+			return max;
+		}
+	}}}
+				 

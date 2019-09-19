@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;word&apos; in &apos;MyPracticJava.StringClass1.main(...)&apos; to &apos;sentance&apos;&#x0D;&#x0A;- Original project: &apos;MyPractic&apos;&#x0D;&#x0A;- Original element: &apos;MyPracticJava.StringClass1.main(String[]).word&apos;&#x0D;&#x0A;- Renamed element: &apos;word&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;word&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;MyPracticJava{StringClass1.java[StringClass1~main~\[QString;@word!97!151!104!107!QString;!0!false" name="sentance" references="true" stamp="1553626890037" version="1.0"/>
+</session>

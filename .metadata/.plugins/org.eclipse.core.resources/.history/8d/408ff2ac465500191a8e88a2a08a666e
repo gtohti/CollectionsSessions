@@ -1,0 +1,82 @@
+package replPractice;
+
+//import java.util.Scanner;
+import java.util.*;
+public class replPractice69 {
+public static void main(String[] args) {
+	
+	//DO NOT CHANGE
+        double premium = 0;
+		int accidentsAmount = 0;
+		int daysDrivenToWorkOrSchool = 0;
+		int milesToWorkOrSchool = 0;
+		String vehicleOwnership = "";
+		String vehicleUsage = "";
+		String continuousInsurance = "";
+		String education = "";
+		String name = "";
+		String referenceNumber = "";
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Welcome to the CountyFarm car insurance!");
+    //WRITE YOUR CODE HERE
+		System.out.println("Enter your name");
+		name=scan.next();
+		System.out.println("Do you have a US driver license?");
+		String driverLicense=scan.next();
+		if (driverLicense.equalsIgnoreCase("yes")) {
+			System.out.println("Please enter your zip code");
+		}else {
+			System.out.println("Invalid data!");
+			System.exit(0);
+		}
+		//System.out.println("Please enter your zip code");
+		int zip=scan.nextInt();
+		if (zip==20910 || zip==20740) {
+			premium=premium+60;
+		}else if(zip==22102 || zip==22103) {
+			premium=premium+30;
+		}else {
+			premium=premium+50;
+		}
+		System.out.println("Is this vehicle Owned, Financed, or Leased?");
+		String ownership=scan.next();
+		if(ownership.equalsIgnoreCase("owned")) {
+			premium=premium+10;
+		}else {
+			premium=premium+20;
+		}
+		
+		System.out.println("How is this vehicle primarily used? Business, Pleasure, or Commute");
+		String business=scan.next();
+		if (business.equalsIgnoreCase("business")) {
+			premium=premium+50;
+		}else if (business.equalsIgnoreCase("pleasure")) {
+			premium=premium+10;
+		}else if (business.equalsIgnoreCase("commute")) {
+			premium=premium+20;
+		}else {
+			System.out.println("Incalid data!");
+			System.exit(0);
+		}
+		System.out.println("Days Driven To Work And/Or School");
+		int days=scan.nextInt();
+		if (days<=7 && days>0) {
+			premium=premium+5*days;
+		}else {
+			System.out.println("Incalid data!");
+		}
+		System.out.println("Miles Driven To Work And/Or School?");
+		int miles=scan.nextInt();
+		if (miles>0) {
+			premium=premium+1*miles;
+		}
+		
+		
+//System.out.println("Invalid data!");
+	System.exit(0);
+//in order to remove space
+//ecucation.replace(" ", "")
+	
+	
+}
+}

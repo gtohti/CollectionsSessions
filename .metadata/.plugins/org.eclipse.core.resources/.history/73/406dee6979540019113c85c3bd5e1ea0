@@ -1,0 +1,20 @@
+package replPractice;
+import java.util.*;
+public class replPractice61 {
+public static void main(String[] args) {
+	 Scanner scan = new Scanner(System.in);
+	    String word1 = scan.next();
+	    String word2 = scan.next();
+	    //YOUR CODE HERE
+   int x = 0;
+   while (x<=(word1.length()-1) && x<(word2.length()-1)) {
+	   System.out.print(word1.charAt(x));
+	   ++x;
+   }
+   
+   x = (word2.length()-1);
+	 while (x>=0) {
+		 System.out.print(word2.charAt(x));
+		 x--;
+	 }
+}}

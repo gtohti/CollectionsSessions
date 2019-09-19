@@ -1,0 +1,22 @@
+package replPractice;
+
+import java.util.Scanner;
+
+public class replPractice70 {
+
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	String email = scan.next();
+	
+	if (email.indexOf('_')>=0){
+		String firstName = email.substring(0, email.indexOf('_'));
+		String lastName = email.substring(email.indexOf('_')+1, email.indexOf('@'));
+		String domain = email.substring(email.indexOf('@'));
+		System.out.println(lastName + "_" + firstName + domain);
+		
+	} else	{
+		System.out.println(email);
+	
+}
+}
+}

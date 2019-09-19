@@ -1,0 +1,51 @@
+package ArithmeticOperators;
+
+public class Arithmetic2Operators {
+
+	public static void main(String[] args) {
+
+		/*
+		 * int n1 = 20, n2 = 10 ; int sum = n1 + n2 ; int sub = n1 - n2 ; int mul = n1 *
+		 * n2 ; int div = n1 / n2 ; int rem = n1 % n2 ;
+		 * 
+		 * 
+		 * System.out.println( "Sum of two value is " + sum);
+		 * System.out.println("Subtraction of two value is " + sub);
+		 * System.out.println("Multipication of two value is " + mul);
+		 * System.out.println("Division of two value is " + div ); System.out.println(
+		 * "Reminder os two value is " + rem); //System.out.println(sum + sub + mul +
+		 * div + rem); System.out.println(sum+ ", " + sub + ", " + mul + ", " + div +
+		 * ", " + rem );
+		 */
+
+		int n1 = 20, n2 = 10, sum = n1 + n2, sub = n1 - n2, mul = n1 * n2, div = n1 / n2, rem = n1 % n2;
+//		int sum = n1 + n2 ;
+//		int sub = n1 - n2 ;
+//		int mul = n1 * n2 ;
+//		int div = n1 / n2 ;
+//		int rem = n1 % n2 ;
+//	
+
+		System.out.println("Sum of two value is " + sum);
+		System.out.println("Subtraction of two value is " + sub);
+		System.out.println("Multipication of two value is " + mul);
+		System.out.println("Division of two value is " + div);
+		System.out.println("Reminder os two value is " + rem);
+		// System.out.println(sum + sub + mul + div + rem);
+		System.out.println(sum + ", " + sub + ", " + mul + ", " + div + ", " + rem);
+
+		int num = 3 + 4 * 2;
+
+		System.out.println(num);
+
+		num = (3 + 4) * 2;
+
+		System.out.println(num);
+		
+		num = (3 + 4) * (2 + 3) / 5 ;
+		
+		System.out.println(num);
+		
+
+	}
+}

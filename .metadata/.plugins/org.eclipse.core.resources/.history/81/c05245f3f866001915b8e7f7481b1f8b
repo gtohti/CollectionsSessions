@@ -1,0 +1,25 @@
+package MyPracticJava;
+
+import java.util.Scanner;
+
+public class ReturnKeyword {
+public static void main(String[] args) {
+	
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter number: ");
+	int num = scan.nextInt();
+	if (num < 0) {
+		return ;
+	}
+	
+	
+	System.out.println("Complex Statement");
+	System.out.println("Complex Statement");
+	System.out.println("Complex Statement");
+	System.out.println("Complex Statement");
+	System.out.println("Complex Statement");
+	System.out.println("Complex Statement");
+	System.out.println("Complex Statement");
+	
+}
+}

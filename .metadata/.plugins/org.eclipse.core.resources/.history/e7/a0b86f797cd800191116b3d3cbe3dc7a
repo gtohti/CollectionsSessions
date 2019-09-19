@@ -1,0 +1,24 @@
+package MyPracticJava;
+
+import java.util.Scanner;
+
+public class MyPracticJavaMonth {
+public static void main(String[] args) {
+	Scanner scan = new Scanner (System.in);
+	System.out.println("Please enter number of Month : ");
+	
+	String[] month = {"January", "February", "March", "April", 
+			"May", "June", "July", "August", "September","October", "November", "December"};
+  //  int[] numOfMonth = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+  //  int number = 0;
+  int  number = scan.nextInt();
+   
+    for (int i = 0; i < month.length; i++) {
+    	if (number<=12){
+    		number++;
+    	}
+    	System.out.println("Number of the month of: "+number+ " is " + month[i]);
+    }
+//    System.out.println("Number of the month of: "+numOfMonth[i]+ " is " + month[i]);
+  }
+}

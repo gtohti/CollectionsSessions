@@ -1,0 +1,26 @@
+package practiceByDay48;
+
+public class StudentTester {
+public static void main(String[] args) {
+	
+	Person p1 = new Person();
+	p1.name = "Gheyret Tohti";
+	p1.age = 52;
+	p1.height = 5.5f;
+	p1.gender = 'M';
+	
+	System.out.println("The student is: "  + p1.gender + ", name is:" + p1.name + ", age is :" + p1.age);
+
+	Student s1 = new Student();
+	
+	s1.name = "Awat Tohti";
+	s1.age = 25;
+	s1.height = 5.6f;
+	s1.gender = 'F';
+	s1.studentId = "AT34234Cybertek";
+	s1.studentId = "GT234542Cybertek";
+	s1.studenType = "Under Gradute";
+	s1.eat();
+	
+}
+}

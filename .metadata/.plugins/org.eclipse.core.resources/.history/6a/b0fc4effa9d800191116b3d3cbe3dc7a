@@ -1,0 +1,53 @@
+package replPractice201;
+
+public class TV extends Main{
+	int channel;
+	int volumeLevel;
+	boolean on;
+	String brand = "undefined";
+	public TV() {
+		super();
+		System.out.println("Creating TV object using no Args - constructor");
+	}
+	
+    public TV(String brand) {
+		super();
+		this.brand = brand;
+		System.out.println("Creating TV object using 1 arg - constructor");
+	}
+    public int cannel() {
+    	return channel;
+    }
+    public void channel(int channel) {
+    	this.channel = channel;
+    }
+   public int getVolumeLevel() {
+	    return volumeLevel;
+    }
+   public void setVolumeLevel(int volumeLevel) {
+	   this.volumeLevel = volumeLevel;
+    }
+   public String getBrand() {
+	return brand;
+    }
+   public void setBrand(String brand) {
+	this.brand = brand;
+    }
+   public void setOn(boolean on) {
+	   this.on = on;
+   }
+   public boolean isOn() {
+	   return on;
+   }
+    public int volumeUp() {
+    	if (volumeLevel >= 1) 
+        this.volumeLevel += 1;
+    	return volumeLevel;
+    }
+    public int volumeDown() {
+    	if(volumeLevel > 1)
+    	this.volumeLevel -= 1;
+    	return volumeLevel;
+    }
+}
+

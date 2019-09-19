@@ -1,0 +1,25 @@
+package replPractice;
+
+import java.util.Arrays;
+
+public class replPractice199 {
+	public static int[] do_switch(int[] i) {
+		int firstElemet = i[0];
+		int lastElemet = i[i.length-1];
+		i[0] = lastElemet;
+		i[i.length-1] = firstElemet;
+		
+		return i;
+	}
+	public static void main(String[] args) {
+		//int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+		int[] arr = new int[4];
+//		i = do_switch(arr);
+//		do_switch(arr);
+ arr = do_switch(arr);
+ 
+		
+		System.out.println(Arrays.toString(arr));
+	}
+
+}

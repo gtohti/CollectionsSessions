@@ -1,0 +1,35 @@
+package replPractice;
+
+import java.util.Scanner;
+
+public class replPractice109 {
+public static void main(String[] args) {
+	
+//	Scanner input = new Scanner(System.in);
+//	String[] arr = new String[2];
+//	for (int i=0; i<2; i++)
+//	{
+//		arr[i] = input.nextLine();
+//	}
+//	//leave above alone!  write your code below
+//	
+//	for (int j = 0; j < 2; j++) {
+//		System.out.println();
+//	//	arr.substring(1, 3);
+		
+	
+	//char name[]=new char[4];
+
+for (int i = 0; i <= 10; i++) {
+	for(char j='A'; j <=i; j++) {
+		for (char k='A'; k<=j; k++) {
+		System.out.print((char)k + " ");
+		}
+	}
+	System.out.println();
+}
+
+
+}
+
+}

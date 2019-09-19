@@ -1,0 +1,14 @@
+package practiceByDay48;
+
+public class AudioBook extends Book{
+    
+	int audioLength;
+	
+	public static void main(String[] args) {
+		AudioBook b=new AudiBook();
+		System.out.println(b.audioLength);
+		System.out.println(b.author);
+		System.out.println(b.chapterCount);
+		System.out.println(b.pageCount);
+}
+}

@@ -1,0 +1,22 @@
+package ListConcept;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class ArrayListConcept {
+	public static void main(String[] args) {
+		ArrayList or = new ArrayList();
+		or.add(10);
+		or.add(20);
+		or.add(30);
+		System.out.println(or);
+		
+		or.add(40);
+		or.add(50);
+		or.add(50);
+		
+		System.out.println(or);
+		
+	}
+
+}

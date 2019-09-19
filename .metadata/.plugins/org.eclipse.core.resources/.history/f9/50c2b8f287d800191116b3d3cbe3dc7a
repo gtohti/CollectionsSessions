@@ -1,0 +1,15 @@
+package replPractice201;
+
+public class Main {
+	public static void main(String[] args) {
+	
+	TV tv = new TV();
+	tv.brand ="Sony";
+	tv.volumeUp(0);
+	System.out.println(tv.volumeLevel);
+	tv.volumeDown(5);
+	
+	System.out.println(tv.volumeLevel);
+	}
+
+}
